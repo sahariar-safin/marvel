@@ -7,3 +7,12 @@
 body{
     background-color: blanchedalmond;
 }
+#dataProvider{
+    text-align: center;
+    margin: 10px;
+}
+#dataProvider a{
+    color: black;
+    font-size: 21px;
+    text-decoration: none;
+}
