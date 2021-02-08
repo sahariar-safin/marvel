@@ -1,0 +1,9 @@
+.card {
+    width: 200px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+body{
+    background-color: blanchedalmond;
+}
