@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+
 .card {
-    width: 200px;
+    width: 400px;
     margin: 5px;
     text-align: center;
     border-radius: 20px;
+}
+.card img{
+    width: 100%;
 }
 body{
     background-color: blanchedalmond;
@@ -15,4 +20,18 @@ body{
     color: black;
     font-size: 21px;
     text-decoration: none;
+}
+
+.header{
+    height: 300px;
+    background-image: url("images/erik-mclean-8SeJUmfahu0-unsplash.jpg");
+    background-size: contain;
+    text-align: center;
+    color: white;
+}
+.header h1{
+    font-family: 'Stalinist One', cursive;
+    text-shadow: 2px 2px black;
+    font-size: 6em;
+    padding: 67px 0px;
 }
