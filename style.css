@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
 
 .card {
     width: 400px;
     margin: 5px;
     text-align: center;
     border-radius: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.card h1{
+    padding: 10px 0px;
 }
 .card img{
     width: 100%;
@@ -32,6 +37,9 @@ body{
 .header h1{
     font-family: 'Stalinist One', cursive;
     text-shadow: 2px 2px black;
-    font-size: 6em;
+    /* font-size: xx-large; */
     padding: 67px 0px;
+}
+#charecters{
+
 }
