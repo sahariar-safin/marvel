@@ -1,11 +1,12 @@
 fetch('https://gateway.marvel.com/v1/public/characters?ts=1&apikey=08be70c1cda287ae92195e56b0641b0f&hash=cdf63316afdae7ebd245284e7060cecf')
     .then(res => res.json())
     .then(data => {
-        console.log(data.data.results);
         const charecters = document.getElementById('charecters');
-        const thumbnailPath = element.thumbnail.path.split('ttp')[0] + 'ttps' + element.thumbnail.path.split('ttp')[1];
+
         data.data.results.forEach(element => {
             console.log(element);
+            const thumbnailPath = element.thumbnail.path.split('ttp')[0] + 'ttps' + element.thumbnail.path.split('ttp')[1];
+            console.log(thumbnailPath);
             const card = document.createElement('div');
             card.innerHTML = `
             <img src="${ thumbnailPath }.${ element.thumbnail.extension }">
